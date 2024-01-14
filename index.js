@@ -8,16 +8,19 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start(startCmd);
 
-bot.action('category1', async (ctx) => {
+bot.action('rest', async (ctx) => {
 });
 
-bot.action('category2', async (ctx) => {
+bot.action('fullstack', async (ctx) => {
 });
 
-bot.action('category3', async (ctx) => {
+bot.action('frontend', async (ctx) => {
 });
 
-bot.action('category4', async (ctx) => {
+bot.action('tgbot', async (ctx) => {
+});
+
+bot.action('other', async (ctx) => {
 });
 
 bot.action('left', leftHandler);

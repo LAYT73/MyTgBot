@@ -4,7 +4,7 @@ import { pageFirst, pageSecond } from '../pages/pages.mjs';
 let currentPage = 1
 
 const updateInlineMenu = (currentPage) => {
-    return currentPage == 1 ? pageFirst : pageSecond;
+    return currentPage === 1 ? pageFirst : pageSecond;
 };
 
 const leftHandler = async (ctx) => {
