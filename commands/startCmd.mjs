@@ -7,7 +7,7 @@ const startCmd = async (ctx) => {
         await ctx.reply(startMsg, menu);
     } catch (error) {
         console.error('Error fetching menu:', error);
-    }    
+    }
 };
 
 export { startCmd };

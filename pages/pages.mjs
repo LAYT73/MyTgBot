@@ -5,7 +5,7 @@ const pageFirst = Markup.inlineKeyboard([
         Markup.button.callback('REST API', 'rest'),],[
         Markup.button.callback('Fullstack web-приложение', 'fullstack'),],[
         Markup.button.callback('Frontend', 'frontend'),],[
-        Markup.button.callback('Telegram бот', 'tgbot'),],[
+        Markup.button.callback('Telegram бот', 'tgBot'),],[
         Markup.button.callback('Другое', 'other'),],[
     ]
 ]);

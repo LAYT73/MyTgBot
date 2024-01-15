@@ -17,12 +17,8 @@ const rightHandler = async (ctx) => {
     await ctx.editMessageText(startMsg, { ...updateInlineMenu(currentPage) });
 };
 
-const replyMenu = async (ctx) => {
-    await ctx.reply(startMsg, { ...updateInlineMenu(currentPage) });
-}
-
 const getMenu = async () => {
     return { ...updateInlineMenu(currentPage) };
 }
 
-export {leftHandler, rightHandler, replyMenu, getMenu};
+export {leftHandler, rightHandler, getMenu};
